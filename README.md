@@ -18,9 +18,15 @@ PetSoft is built to optimize pet service management with the following features:
 - Browse all registered pets with a flexible search function.
 - Filter pets based on various attributes.
 
+  ![image](https://github.com/user-attachments/assets/baf5ca21-7523-4444-a960-0f938b3694f1)
+
 ### ✅ Pet Management
 - Easily create, edit, and manage pet details.
-- Maintain pet health records and appointments.
+- Maintain pet records.
+
+  ![image](https://github.com/user-attachments/assets/39ae29ce-e1b0-453d-ab05-a482c4720594)
+
+  ![image](https://github.com/user-attachments/assets/fcdaaf93-ed7f-475b-b8f2-fe0570448dd8)
 
 ### ✅ User Authentication
 - Secure signup, login, and logout functionalities.
@@ -31,6 +37,8 @@ PetSoft is built to optimize pet service management with the following features:
 ### ✅ Stripe Payments Integration
 - Integrated with Stripe (test mode) for seamless transactions.
 - Secure checkout experience.
+
+  ![image](https://github.com/user-attachments/assets/df11aa60-d989-43ca-8667-5cab0392e591)
 
 ## 📄 Pages Overview
 PetSoft includes various pages for a smooth and intuitive user experience:
