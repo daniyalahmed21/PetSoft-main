@@ -115,7 +115,7 @@ npx prisma migrate dev
 ## 🔥 Testing Stripe Webhooks Locally
 To test Stripe webhooks locally:
 ```bash
-stripe listen --forward-to localhost:3000/api/webhooks
+stripe listen --forward-to localhost:3000/api/stripe
 ```
 
 ## 🏆 Contribution Guidelines
