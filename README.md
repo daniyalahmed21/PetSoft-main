@@ -2,6 +2,8 @@
 
 PetSoft is a comprehensive platform designed to streamline pet care services by providing seamless pet management, user authentication, and integrated payments. 
 
+![image](https://github.com/user-attachments/assets/a40ec7e6-fafe-44f4-a72c-a8a61e1b0151)
+
 ## 🚀 Quick Start Credentials
 To experience PetSoft firsthand, use the following demo credentials:
 
