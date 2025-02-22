@@ -25,6 +25,8 @@ PetSoft is built to optimize pet service management with the following features:
 ### ✅ User Authentication
 - Secure signup, login, and logout functionalities.
 - account verification.
+  
+  ![image](https://github.com/user-attachments/assets/48330d2c-2a5c-4953-bf48-1d6eeebbe61d)
 
 ### ✅ Stripe Payments Integration
 - Integrated with Stripe (test mode) for seamless transactions.
