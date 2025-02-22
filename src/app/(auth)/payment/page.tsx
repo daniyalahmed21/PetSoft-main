@@ -1,7 +1,7 @@
 "use client";
 
 import { createCheckoutSession } from "@/actions/actions";
-import H1 from "@/components/h1";
+import H1 from "@/components/H1";
 import { Button } from "@/components/ui/button";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
