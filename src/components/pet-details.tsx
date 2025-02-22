@@ -41,22 +41,31 @@ function TopBar({ pet }: Props) {
   const { handleCheckoutPet } = usePetContext();
 
   return (
-    <div className="flex items-center bg-white px-8 py-5 border-b border-light">
-      <Image
-        src={pet.imageUrl}
-        alt="Selected pet image"
-        height={75}
-        width={75}
-        className="h-[75px] w-[75px] rounded-full object-cover"
-      />
+    <div className="flex flex-col md:flex-row ju items-center bg-white px-4 py-5 border-b border-light">
+      {/* Pet Image and Name */}
+      <div className="flex items-center w-full md:w-auto">
+        <Image
+          src={pet.imageUrl}
+          alt="Selected pet image"
+          height={75}
+          width={75}
+          className="h-[75px] w-[75px] rounded-full object-cover"
+        />
 
-      <h2 className="text-3xl font-semibold leading-7 ml-5">{pet.name}</h2>
+        <h2 className="text-xl md:text-2xl font-semibold leading-7 ml-3 md:ml-5">
+          {pet.name}
+        </h2>
+      </div>
 
-      <div className="ml-auto space-x-2">
-        <PetButton actionType="edit">Edit</PetButton>
+      {/* Buttons */}
+      <div className="flex flex-col md:flex-row gap-2 w-full md:w-auto mt-4 md:mt-0 md:ml-auto">
+        <PetButton actionType="edit" >
+          Edit
+        </PetButton>
         <PetButton
           actionType="checkout"
           onClick={async () => await handleCheckoutPet(pet.id)}
+        
         >
           Checkout
         </PetButton>
